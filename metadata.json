@@ -1,0 +1,6 @@
+{
+  "name": "ThinkPad Premium Store",
+  "description": "A modern, premium, and interactive e-commerce platform for ThinkPad laptops with elegant dark-matte design.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
