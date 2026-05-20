@@ -97,8 +97,17 @@ export default function Navbar() {
             />
           </div>
           
-          <button className="bg-think-red hover:bg-[#b51f13] text-white px-5 py-2 rounded-sm text-[11px] font-black uppercase tracking-widest transition-all active:scale-95 hidden sm:block">
-            Beli
+          {/* Button WhatsApp by tipensaragi */}
+<button
+            onClick={() =>
+              window.open(
+                "https://wa.me/6285831006794?text=Saya%20ingin%20membeli%20laptop%20ThinkPad",
+                "_blank"
+              )
+            }
+            className="bg-think-red hover:bg-[#b51f13] text-white px-5 py-2 rounded-sm text-[11px]"
+          >
+            Hubungi WhatsApp
           </button>
 
           {isAdminVisible && (
