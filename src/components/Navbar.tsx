@@ -67,7 +67,7 @@ export default function Navbar() {
             onClick={handleLogoClick}
             className="flex items-center leading-none font-display font-black tracking-tighter text-2xl select-none cursor-default"
           >
-            <span className="text-white">THINK<span className="text-think-red">P</span>AD</span>
+            <span className="text-white">THING<span className="text-think-red">P</span>AD</span>
             <div className="w-1.5 h-1.5 bg-think-red rounded-full mb-3 ml-0.5" />
           </div>
         </div>
